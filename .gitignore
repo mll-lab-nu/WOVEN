@@ -1,0 +1,8 @@
+evaluation/
+__pycache__/
+*.pyc
+outputs/
+data/
+models/
+third_party/
+results/

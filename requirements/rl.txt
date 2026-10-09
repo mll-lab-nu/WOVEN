@@ -1,0 +1,37 @@
+# GRPO environment (Python 3.12, CUDA 12.8): verl 0.7.1 from PyPI + vLLM rollout.
+--extra-index-url https://download.pytorch.org/whl/cu128
+torch==2.9.0+cu128
+torchvision==0.24.0+cu128
+torchaudio==2.9.0
+triton==3.5.0
+flash_attn @ https://github.com/Dao-AILab/flash-attention/releases/download/v2.8.3/flash_attn-2.8.3+cu12torch2.9cxx11abiTRUE-cp312-cp312-linux_x86_64.whl#sha256=4e2f9e39313266b1544b68138b15b91ee6221eccf14f7902b7c6620351340810
+verl==0.7.1
+vllm==0.12.0
+flashinfer-python==0.5.3
+xgrammar==0.1.27
+transformers==4.57.6
+tokenizers==0.22.2
+accelerate==1.13.0
+peft==0.19.1
+qwen-vl-utils==0.0.14
+safetensors==0.7.0
+sentencepiece==0.2.1
+datasets==4.8.5
+pyarrow==24.0.0
+huggingface_hub==0.36.2
+hf-xet==1.4.3
+ray==2.55.1
+hydra-core==1.3.2
+omegaconf==2.3.0
+tensordict==0.10.0
+torchdata==0.11.0
+codetiming==1.4.0
+pylatexenc==2.10
+dill==0.4.1
+numpy==1.26.4
+pandas==3.0.2
+pillow==12.2.0
+av==17.0.1
+opencv-python-headless==4.11.0.86
+einops==0.8.2
+wandb==0.26.1
